@@ -102,7 +102,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'amk') {
+  if (msg.content === 'piç') {
    msg.delete(30)
     msg.reply('Kufur Engellendi');
  });	
